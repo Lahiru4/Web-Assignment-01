@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+!important;
+}
+
+html {
+    overflow-x: hidden;
+!important;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    padding: 25px 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav.logo {
+
+    letter-spacing: 1.5px;
+}
+
+nav .logo p {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+
+#hed_tex {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0C4A84;
+}
+
+#tex_2 {
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #17A4D0;
+}
+
+#tex_3 {
+    position: absolute;
+    top: 320px;
+    left: 140px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#colour_desion_01 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(154, 166, 229, 0.55);
+    top: -150px;
+    right: -100px;
+    border-radius: 100%;
+}
+
+#deshin_box {
+    background-color: #5FB0DE;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100% 0px 100% 100%;
+    top: 156px;
+    right: 231px;
+}
+
+#deshin_box2 {
+    background-color: #5FB0DE;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 150px;
+    right: 150px;
+}
+
+#myImage {
+    position: absolute;
+    right: 35px;
+    top: 97px;
+    border-radius: 48%;
+}
+
+
+#email_subscribe {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 500px;
+    left: 135px;
+
+}
+#subscribe {
+    width: 120px;
+    height: 43px;
+    position: absolute;
+    top: 496px;
+    left: 423px;
+}
+
+@media all and (max-width: 1440px) {
+    #colour_desion_01 {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        background-color: rgba(154, 166, 229, 0.55);
+        top: -150px;
+        right: -100px;
+        border-radius: 100%;
+    }
+
+    #deshin_box2 {
+        background-color: #5FB0DE;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        right: 150px;
+    }
+
+    #deshin_box {
+        background-color: #5FB0DE;
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 100% 0px 100% 100%;
+        top: 148px;
+        right: 73px;
+    }
+
+    #myImage {
+        position: absolute;
+        width: 380px;
+        right: 34px;
+        top: 94px;
+        border-radius: 48%;
+    }
+}
