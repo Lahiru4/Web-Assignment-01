@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+!important;
+}
+
+html {
+    overflow-x: hidden;
+!important;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    padding: 25px 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav.logo {
+
+    letter-spacing: 1.5px;
+}
+
+nav .logo p {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+
+#hed_tex {
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 55px;
+    color: #0C4A84;
+}
+
+#tex_2 {
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #17A4D0;
+}
+
+#tex_3 {
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#colour_desion_01 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(154, 166, 229, 0.55);
+    top: -150px;
+    right: -100px;
+    border-radius: 100%;
+}
+
+#deshin_box {
+    background-color: #5FB0DE;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100% 0px 100% 100%;
+    top: 156px;
+    right: 200px;
+}
+
+#myImage {
+    position: absolute;
+    right: 35px;
+    top: 97px;
+    border-radius: 48%;
+}
+
+#email_subscribe {
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: transparent;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#subscribe {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 595px;
+    left: 600px;
+    border: white;
+    background-color: #0E2152;
+    color: white;
+    border-radius: 15px;
+}
+
+#subscribe:hover {
+    cursor: pointer;
+}
+
+#sub_image {
+    position: absolute;
+    top: 750px;
+    left: 250px;
+}
+
+#sub_tex {
+    position: absolute;
+    top: 760px;
+    left: 350px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.topic {
+    color: #09268D;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+
+#about {
+    top: 1000px;
+}
+
+#about_image {
+    position: absolute;
+    bottom: 0;
+}
+
+#about_box {
+    background-color: rgb(225, 232, 233);
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 1100px;
+    left: 250px;
+    border-radius: 50px;
+
+}
+
+.about_me_tex_01 {
+    position: absolute;
+    top: 1459px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+.about_me_tex_02 {
+    color: #012AFF;
+    position: absolute;
+    top: 1592px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+}
+#about_tex_box{
+    position: absolute;
+    width: 1800px;
+    top: -49px;
+    right: -235px;
+}
+#project {
+    top: 1800px;
+}
+#experience{
+    position: absolute;
+    top: 1150px;
+    right: 254px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    width: 400px;
+    height: 125px;
+}
+#education{
+    position: absolute;
+    top: 1150px;
+    left: 800px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    width: 400px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1440px) {
+    #colour_desion_01 {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        background-color: rgba(154, 166, 229, 0.55);
+        top: -150px;
+        right: -100px;
+        border-radius: 100%;
+    }
+
+    #deshin_box2 {
+        background-color: #5FB0DE;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        right: 150px;
+    }
+
+    #deshin_box {
+        background-color: #5FB0DE;
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 100% 0px 100% 100%;
+        top: 148px;
+        right: 73px;
+    }
+
+    #myImage {
+        position: absolute;
+        width: 380px;
+        right: 34px;
+        top: 94px;
+        border-radius: 48%;
+    }
+}
