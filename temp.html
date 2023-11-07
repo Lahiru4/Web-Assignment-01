@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            background-color: #AD0170;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: arial;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-filter: url("#goo");
+            filter: url("#goo");
+        }
+
+        footer {
+            width: 100%;
+            position: absolute;
+            height: 50px;
+            bottom: 0;
+            left: 0;
+            background: rgb(255, 194, 194);
+        }
+
+        footer, article {
+            font-family: monospace;
+            width: 100%;
+            color: black;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px #737373;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: right;
+            height: 30px;
+            line-height: 30px;
+            padding-right: 20px;
+        }
+
+        article {
+            width: 50%;
+            max-width: 350px;
+            font-size: 15px;
+            color: white;
+            padding: 20px;
+        }
+
+        svg {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvasbg"></canvas>
+<canvas id="canvas"></canvas>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
+            <feBlend in="SourceGraphic" in2="goo"/>
+        </filter>
+    </defs>
+</svg>
+
+<footer>
+
+    <span>Created by
+        <a href="https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ" target='blank'>Frank's Laboratory</a>
+        @2020
+    </span>
+</footer>
+<script src="temp.js"></script>
+</body>
+</html>

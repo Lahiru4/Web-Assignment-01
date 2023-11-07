@@ -1,0 +1,109 @@
+@media all and  (min-width: 1025px) and (max-width: 1440px) {
+    header .navbar {
+        position: absolute;
+        top: 25%;
+        right: 100px;
+    }
+    #logo {
+        position: absolute;
+        left: 100px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+/*text*/
+    #hed_tex {
+        position: absolute;
+        top: 180px;
+        left: 100px;
+        font-weight: bold;
+        font-size: 45px;
+        color: #0C4A84;
+    }
+
+    #tex_2 {
+        position: absolute;
+        top: 280px;
+        left: 100px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #17A4D0;
+    }
+
+    #tex_3 {
+        position: absolute;
+        top: 450px;
+        left: 100px;
+        font-weight: bold;
+        font-size: 25px;
+        width: 550px;
+    }
+
+    .typing-demo {
+        position: absolute;
+        top: 450px;
+        left: 100px;
+        font-weight: bold;
+        font-size: 25px;
+        width: 550px;
+    }
+
+
+    /**/
+    #email_subscribe {
+        width: 450px;
+        height: 45px;
+        position: absolute;
+        top: 700px;
+        left: 100px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border: transparent;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    #subscribe {
+        width: 120px;
+        height: 50px;
+        position: absolute;
+        top: 698px;
+        left: 600px;
+        border: white;
+        background-color: #0E2152;
+        color: white;
+        border-radius: 15px;
+    }
+
+
+    #sub_image {
+        position: absolute;
+        top: 800px;
+        left: 100px;
+    }
+
+    #sub_tex {
+        position: absolute;
+        top: 810px;
+        left: 300px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #deshin_box {
+        background-color: #5FB0DE;
+        position: absolute;
+        width: 420px;
+        height: 420px;
+        border-radius: 100%;
+        top: 250px;
+        right: 200px;
+        overflow: hidden;
+    }
+    .social-media {
+        display: grid;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+    }
+
+}

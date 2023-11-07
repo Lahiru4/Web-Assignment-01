@@ -1,0 +1,122 @@
+
+.wrapper {
+    position: absolute;
+    top: 3500px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 339px;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.card-inner {
+    padding-right: 30px;
+}
+
+.card-thumb {
+    position: relative;
+    z-index: 2;
+}
+
+.card-thumb img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-thumb span {
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+    transform: translateY(50%);
+    transition: .5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.card-inner:hover .card-thumb span {
+    background-color: #fff;
+    color: dodgerblue;
+}
+
+
+.card_detail {
+    position: relative;
+    height: 290px;
+    width: 400px;
+    z-index: 1;
+    left: 30px;
+    text-align: center;
+    padding-top: 39px;
+}
+
+.card_detail::before {
+    position: absolute;
+    content: " ";
+    background-color: #ECF0F3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -200px;
+    z-index: -1;
+    transition: .5s;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.card-inner:hover .card_detail::before {
+    background-color: dodgerblue;
+
+}
+
+.card-inner:hover .card_detail h4,
+.card-inner:hover .card_detail p,
+.card-inner:hover .card_detail a {
+    color: #fff;
+}
+.card_detail h4 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    margin: 1px 50px 15px;
+    transition: .5s;
+}
+
+
+.card_detail p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+    transition: .5s;
+    margin: 0 20px 20px;
+}
+
+
+.card_detail a {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: dodgerblue;
+    transition: .5s;
+    text-decoration: none;
+}
