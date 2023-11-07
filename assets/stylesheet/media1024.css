@@ -89,8 +89,8 @@
     #deshin_box {
         background-color: #5FB0DE;
         position: absolute;
-        width: 360px;
-        height: 360px;
+        width: 300px;
+        height: 300px;
         border-radius: 100%;
         top: 285px;
         left: 50%;
@@ -100,50 +100,184 @@
 
     #myImage {
         position: absolute;
-        width: 333px;
-        right: 20px;
-        top: 74px;
+        width: 250px;
+        right: 31px;
+        top: 76px;
     }
     #email_subscribe {
-        width: 450px;
-        height: 45px;
-        position: absolute;
-        top: 700px;
-        left: 300px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        border: transparent;
-        text-align: center;
-        border-radius: 15px;
-        font-size: 15px;
         display: none;
     }
 
     #subscribe {
-        width: 120px;
-        height: 50px;
-        position: absolute;
-        top: 698px;
-        left: 700px;
-        border: white;
-        background-color: #0E2152;
-        color: white;
-        border-radius: 15px;
         display: none;
+
     }
     #sub_image {
-        position: absolute;
-        top: 800px;
-        left: 300px;
         display: none;
     }
 
     #sub_tex {
-        position: absolute;
-        top: 810px;
-        left: 400px;
-        font-weight: bold;
-        font-size: 18px;
         display: none;
+
+    }
+    .social-media {
+        display: grid;
+        position: absolute;
+        top: 140px;
+        right: 100PX;
+    }
+    .social-media a {
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        background: transparent;
+        margin: 10px;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+    #about {
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 900px;
+    }
+
+    #about_me {
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 760px;
+    }
+
+    #about_image {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        top: 1170px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .about_me_tex_01 {
+        color: #000000;
+        position: absolute;
+        top: 1550px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal;
+        display: inline-block;
+        width: 75%;
+    }
+    .btn-color-2 {
+        position: absolute;
+        top: 1400px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 10rem;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+    }
+
+    #assigmenttag {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 1650px;
+    }
+
+    #assigment {
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 1800px;
+    }
+    .our_solution_category {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 2500px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #project {
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 3200px;
+    }
+
+    #projecttag {
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: 3050px;
+    }
+    .wrapper {
+        position: absolute;
+        top:3380px;
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+    }
+    #contact-me-tag {
+        position: absolute;
+        top: -550px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+
+    }
+
+    #contact-me-lable {
+        text-align: center;
+        display: inline;
+        color: #09268D;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        top: -400px;
+    }
+    .form {
+        position: absolute;
+        top: 7000px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 50%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+
     }
     
 }
