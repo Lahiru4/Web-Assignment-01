@@ -212,7 +212,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         position: absolute;
-        top: 2500px;
+        top: 2800px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -223,7 +223,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 45px;
-        top: 3200px;
+        top: 3850px;
     }
 
     #projecttag {
@@ -232,11 +232,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 45px;
-        top: 3050px;
+        top: 3700px;
     }
     .wrapper {
         position: absolute;
-        top:3380px;
+        top:4000px;
         width: 100%;
         display: flex;
         gap: 40px;
@@ -263,21 +263,24 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 45px;
-        top: -400px;
+        top: -100px;
     }
-    .form {
+    .contact-me{
         position: absolute;
-        top: 7000px;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 450px;
+        width: 100%;
+    }
+    footer{
+        position: absolute;
+        top: 6300px;
+        width: 100%;
+        background: #3586ff;
+        min-height: 100px;
+        padding: 19px 50px;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        gap: 10px;
-        width: 50%;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-
     }
     
 }

@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 425px) {
     /*nav bar*/
     #logo {
         display: none;
@@ -7,7 +7,7 @@
     #menu_btn {
         display: block;
         position: absolute;
-        left: 80px;
+        left: 30px;
     }
 
     header .navbar {
@@ -37,7 +37,7 @@
     }
 
     header .navbar.active a {
-        left: 80px;
+        left: 20px;
     }
 
     .toggle-btn.active::before {
@@ -46,52 +46,43 @@
     /**/
     #hed_tex {
         position: absolute;
-        top: 557px;
+        top: 480px;
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 45px;
+        font-size: 35px;
         color: #0C4A84;
-        width: 552px;
+        width: 200px;
     }
 
     #tex_2 {
         position: absolute;
-        top: 666px;
+        top: 590px;
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         color: #17A4D0;
-        width: 552px;
-    }
-
-    #tex_3 {
-        position: absolute;
-        top: 1200px;
-        left: 300px;
-        font-weight: bold;
-        font-size: 25px;
-        width: 550px;
+        width: 200px;
     }
 
     .typing-demo {
         position: absolute;
-        top: 750px;
+        top: 650px;
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 25px;
-        width: 550px;
+        font-size: 20px;
+        width: 200px;
     }
 
     #deshin_box {
         background-color: #5FB0DE;
         position: absolute;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
-        top: 285px;
+        top: 200px;
         left: 50%;
         transform: translate(-50%, -50%);
         overflow: hidden;
@@ -99,9 +90,9 @@
 
     #myImage {
         position: absolute;
-        width: 250px;
-        right: 31px;
-        top: 76px;
+        width: 159px;
+        right: 25px;
+        top: 58px;
     }
     #email_subscribe {
         display: none;
@@ -120,10 +111,12 @@
 
     }
     .social-media {
-        display: grid;
+        display: inline-block;
         position: absolute;
-        top: 140px;
-        right: 100PX;
+        top: 350px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
     }
     .social-media a {
         justify-content: center;
@@ -131,17 +124,17 @@
         width: 4rem;
         height: 4rem;
         background: transparent;
-        margin: 10px;
+        margin: 5px;
         border-radius: 15px;
-        font-size: 25px;
+        font-size: 20px;
     }
     #about {
         color: #09268D;
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 45px;
-        top: 900px;
+        font-size: 25px;
+        top: 800px;
     }
 
     #about_me {
@@ -149,17 +142,17 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 45px;
-        top: 760px;
+        font-size: 25px;
+        top: 650px;
     }
 
     #about_image {
         position: absolute;
         bottom: 0;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
-        top: 1170px;
+        top: 970px;
         left: 50%;
         transform: translate(-50%, -50%);
 
@@ -168,10 +161,10 @@
     .about_me_tex_01 {
         color: #000000;
         position: absolute;
-        top: 1550px;
+        top: 1250px;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 25px;
+        font-size: 15px;
         text-align: center;
         font-weight: normal;
         display: inline-block;
@@ -179,15 +172,16 @@
     }
     .btn-color-2 {
         position: absolute;
-        top: 1400px;
+        top: 1110px;
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: 600;
         transition: all 300ms ease;
         padding: 1rem;
-        width: 10rem;
+        width: 5rem;
         border-radius: 2rem;
         border: rgb(53, 53, 53) 0.1rem solid;
+        width: 150px;
     }
 
     #assigmenttag {
@@ -195,7 +189,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 45px;
-        top: 1650px;
+        top: 1300px;
     }
 
     #assigment {
@@ -203,15 +197,15 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 45px;
-        top: 1800px;
+        font-size: 25px;
+        top: 1450px;
     }
     .our_solution_category {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         position: absolute;
-        top: 2800px;
+        top: 3250px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -221,8 +215,8 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 45px;
-        top: 3850px;
+        font-size: 25px;
+        top: 5050px;
     }
 
     #projecttag {
@@ -231,11 +225,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 45px;
-        top: 3700px;
+        top: 4900px;
     }
     .wrapper {
         position: absolute;
-        top:4000px;
+        top:5150px;
         width: 100%;
         display: flex;
         gap: 40px;
@@ -266,19 +260,20 @@
     }
     .contact-me{
         position: absolute;
-        top: 1000px;
+        top: 2200px;
         width: 100%;
     }
     footer{
         position: absolute;
-        top: 6800px;
+        top: 7850px;
         width: 100%;
         background: #3586ff;
         min-height: 100px;
-        padding: 19px 50px;
+        padding: 1px 50px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
 }
